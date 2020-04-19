@@ -1,0 +1,4 @@
+<!-- Logback configuration -->
+<configuration>
+    <logger name="org.optaplanner" level="info"/>
+</configuration>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+    <environmentMode>NON_REPRODUCIBLE</environmentMode>
+
+    <scanAnnotatedClasses />
+
+    <scoreDirectorFactory>
+        <easyScoreCalculatorClass>org.pb.rumination.solving.RotationScoreCalculator</easyScoreCalculatorClass>
+    </scoreDirectorFactory>
+
+<!--    <constructionHeuristic>-->
+<!--        <constructionHeuristicType>WEAKEST_FIT</constructionHeuristicType>-->
+<!--    </constructionHeuristic>-->
+
+<!--    <localSearch>-->
+<!--        <localSearchType>LATE_ACCEPTANCE</localSearchType>-->
+<!--    </localSearch>-->
+
+    <termination>
+<!--        <unimprovedSecondsSpentLimit>30</unimprovedSecondsSpentLimit>-->
+        <secondsSpentLimit>15</secondsSpentLimit>
+<!--        <minutesSpentLimit>5</minutesSpentLimit>-->
+    </termination>
+</solver>
